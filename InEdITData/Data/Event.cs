@@ -33,6 +33,8 @@ namespace InEdITData.Data
 
         public DateTime CreationDateTime { get; set; }
 
+        public string Place { get; set; }
+
         public virtual Mentor Mentor { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

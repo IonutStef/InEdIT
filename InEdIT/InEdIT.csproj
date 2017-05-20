@@ -181,6 +181,7 @@
     <Content Include="Content\Images\Home\algs.jpg" />
     <Content Include="Content\Images\Home\blue_shape-transparent.jpg" />
     <Content Include="Content\Images\Home\blue_shape-transparent.png" />
+    <Content Include="Content\Images\Home\calendar.png" />
     <Content Include="Content\Images\Home\codecamp.png" />
     <Content Include="Content\Images\Home\computer_img.png" />
     <Content Include="Content\Images\Home\corina.jpg" />
@@ -193,6 +194,7 @@
     <Content Include="Content\Images\Home\java.jpg" />
     <Content Include="Content\Images\Home\logo.png" />
     <Content Include="Content\Images\Home\map-image.png" />
+    <Content Include="Content\Images\Home\map.png" />
     <Content Include="Content\Images\Home\mentor.jpg" />
     <Content Include="Content\Images\Home\net.jpg" />
     <Content Include="Content\Images\Home\ntk.jpg" />

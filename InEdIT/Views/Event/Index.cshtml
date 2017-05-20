@@ -1,7 +1,60 @@
-﻿@model dynamic
+﻿@using System.Web.UI.HtmlControls
+@model InEdIT.Models.FullEventContainer
 
 @{
     ViewBag.Title = "Event";
 }
 
-<h2>Event</h2>
+<div class="container">
+    <div class="text-left">
+        <div class="row">
+            <h2>Welcome to Event Detail Page</h2>
+        </div>
+        <div class="row">
+            <h5 style="font-weight:400">
+                Here you can find more details about a specific Event <br />
+                that you will want to apply for or maybe it will get you curious<br />
+                about a certain technology.
+            </h5>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="row">
+        <div class="text-left">
+            <div class="row">
+                <h3>@Model.Event.Name</h3>
+            </div>
+            <div class="row"><h5 style="font-weight:500">@Model.Event.Description</h5></div>
+            <br />
+            <br />
+            <br />
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="@Url.Content("~/content/Images/Home/372-razvan.jpg")" class="img-responsive img-circle" style="width:150px; height:150px" alt="">
+                        <h5>Razvan Mihai</h5>
+                        <p class="text-muted">Mentor</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="@Url.Content("~/content/Images/Home/calendar.png")" class="img-responsive img-circle" style="width:150px; height:150px" alt="">
+                        <h5>@Model.Event.ScheduledDate</h5>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="@Url.Content("~/content/Images/Home/map.png")" class="img-responsive img-circle" style="width:150px; height:150px" alt="">
+                        <h5>@Model.Event.Place</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
