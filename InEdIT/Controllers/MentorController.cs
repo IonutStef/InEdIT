@@ -13,8 +13,8 @@ namespace InEdIT.Controllers
 
         public MentorController()
         {
-            MentorData = new MentorData();
-            EventData = new EventData();
+            //MentorData = new MentorData();
+            //EventData = new EventData();
         }
 
         // GET: Mentor
@@ -22,6 +22,7 @@ namespace InEdIT.Controllers
         {
             if (!mentorId.HasValue)
             {
+                
                 return View();
             }
 
@@ -34,6 +35,11 @@ namespace InEdIT.Controllers
             };
 
             return View(fullMentorDetails);
+        }
+
+        public ActionResult Mentors()
+        {
+            return View();
         }
     }
 }

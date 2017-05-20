@@ -13,9 +13,9 @@ namespace InEdIT.Controllers
 
         public EventController()
         {
-            EventData = new EventData();
-            MentorData = new MentorData();
-            EventStudentData = new EventStudentData();
+            //EventData = new EventData();
+            //MentorData = new MentorData();
+            //EventStudentData = new EventStudentData();
         }
 
         // GET: Event
@@ -43,7 +43,7 @@ namespace InEdIT.Controllers
 
         public ActionResult SubscribeToEvent(Guid studentId, Guid eventId)
         {
-            EventStudentData.SubscribeToEvent(studentId, eventId);
+            //EventStudentData.SubscribeToEvent(studentId, eventId);
 
             return View("Index");
         }

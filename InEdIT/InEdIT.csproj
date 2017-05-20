@@ -270,12 +270,12 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Mentor\Index.cshtml" />
     <Content Include="Views\Student\Index.cshtml" />
-    <Content Include="Views\Mentor\MentorsPart.cshtml" />
     <Content Include="Views\Event\Index.cshtml" />
     <Content Include="Views\Event\EventsPart.cshtml" />
     <Content Include="Views\Authentification\SignIn.cshtml" />
     <Content Include="Views\Authentification\SignUp.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Mentor\Mentors.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

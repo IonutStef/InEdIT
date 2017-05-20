@@ -12,8 +12,8 @@ namespace InEdIT.Controllers
 
         public StudentController()
         {
-            StudentData = new StudentData();
-            EventData = new EventData();
+            //StudentData = new StudentData();
+            //EventData = new EventData();
         }
 
         // GET: Student

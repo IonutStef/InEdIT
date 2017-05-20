@@ -10,7 +10,17 @@ body {
 .text-muted {
   color: #777777;
 }
- 
+
+.fontSize {
+    font-size : 20px;
+    margin-left: 20px;
+}
+
+.margin {
+    margin : 50px 500px 50px 300px;
+    border-color: dimgray;
+}
+
  .image{
      background-image: url('Images/Home/blue_shape-transparent.png'); 
  }
@@ -35,6 +45,10 @@ td {
 .smallLetters{
     padding-bottom: none; 
     font-size: 5px;
+}
+
+.fontI {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .toRight{
@@ -91,7 +105,7 @@ h6 {
   margin: 0 auto;
 }
 .bg-light-gray {
-  background-color: #eeeeee;
+  background-color: white;
 }
 .bg-darkest-gray {
   background-color: #222222;

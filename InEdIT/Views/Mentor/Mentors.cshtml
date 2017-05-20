@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewBag.Title = "Mentors";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="margin fontI"  id="center" align="center">
+<h2 >Meet our mentor!</h2>
+    
+        <table>
+            <tr>
+                <td>
+                    <div id="bloc1"><img src="@Url.Content("~/content/Images/Home/mentor.jpg")" class="img-responsive img-circle" style="width:250px; height:250px" alt=""></div>
+                </td>
+                <td>
+                    <div id="bloc2" class="service-heading toRight"><p class="fontSize fontI">Alexandru Gologan, the great Engineer. TiVo Romania</p></div>
+                </td>
+            </tr>
+        </table>   
+</div>
+
+<div class="container margin fontI"" id="portfolio">
+    
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading" style="font-weight:500">Offered courses</h2>
+            <h3 class="section-subheading " style="font-weight:500">Innovative IT mentorships are one click away. Browse for the events that inspire you.</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                        <i class="fa fa-plus fa-3x"></i>
+                    </div>
+                </div>
+                <img src="@Url.Content("~/content/Images/Home/design.jpg")" style="height: 250px; width: 400px" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+                <h4>Graphic Design</h4>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                        <i class="fa fa-plus fa-3x"></i>
+                    </div>
+                </div>
+                <img src="@Url.Content("~/content/Images/Home/web.jpg")" style="height: 250px; width: 400px" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+                <h4>Web development</h4>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+            <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                        <i class="fa fa-plus fa-3x"></i>
+                    </div>
+                </div>
+                <img src="@Url.Content("~/content/Images/Home/java.jpg")" style="height: 250px; width: 400px" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+                <h4>Introduction to Java</h4>
+            </div>
+        </div>       
+    </div>
+</div>
+
+

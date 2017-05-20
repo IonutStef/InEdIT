@@ -11,21 +11,21 @@ namespace InEdIT.Controllers
 
         public HomeController()
         {
-            _mentorData = new MentorData();
-            _eventData = new EventData();
+           // _mentorData = new MentorData();
+            //_eventData = new EventData();
         }
 
 
         public ActionResult Index()
         {
-            var events = _eventData.GetEvents();
-            var mentors = _mentorData.GetMentors();
+            //var events = _eventData.GetEvents();
+            //var mentors = _mentorData.GetMentors();
             
             var homeDetails = new FullHomeContainer
             {
                 Description = "Description",
-                Events = events,
-                Mentors = mentors
+                //Events = events,
+                //Mentors = mentors
             };
 
             return View(homeDetails);
