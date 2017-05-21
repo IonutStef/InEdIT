@@ -25,13 +25,15 @@
         <nav class="navbar navbar-default navbar-custom   whiteBackground  ">
             <div class="container ">
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll">
+                <a href="http://localhost:64988">
+                    <div class="navbar-header page-scroll">
 
 
-                    <img src="@Url.Content("~/content/Images/Home/logo.png")" style="width:65px;height:50px;" />
-                    <a class="smallLetters navbar-brand grayLetters" style="float: right">inEdIT</a>
+                        <img src="@Url.Content("~/content/Images/Home/logo.png")" style="width:65px;height:50px;" />
+                        <a class="smallLetters navbar-brand grayLetters" style="float: right">inEdIT</a>
 
-                </div>
+                    </div>
+                </a>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="grayLetters">
@@ -55,7 +57,7 @@
                             <a class="page-scroll" href="#contact">CONTACT</a>
                         </li>
                         <li>
-                            @Html.ActionLink("LOGIN/REGISTER", "SignIn", "Authentification")
+                            @Html.ActionLink("My Profile", "SignIn", "Authentification")
                         </li>
                     </ul>
                 </div>

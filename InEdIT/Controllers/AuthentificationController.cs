@@ -16,6 +16,7 @@ namespace InEdIT.Controllers
         [HttpGet]
         public ActionResult SignIn()
         {
+            return RedirectToAction("Index", "Student");
             var principalModel = new EditPrincipalModel
             {
                 Id = new Guid("B2AF469F-B0C9-4A84-BCEB-81A21AB74D5A"),
